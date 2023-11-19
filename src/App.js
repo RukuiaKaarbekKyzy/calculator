@@ -1,9 +1,9 @@
 import './App.css';
-import Calculator from './components/calculator';
+import { TodoWrapper } from './components/TodoWrapper';
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      <TodoWrapper/>
     </div>
   );
 }
